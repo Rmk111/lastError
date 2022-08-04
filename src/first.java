@@ -9,10 +9,10 @@ public class first {
     static char[] operants ={'+','-','/','*'};
         public static void main(String[] args) throws NullPointerException {
             Scanner scanner = new Scanner(System.in);
-            int count = 0;
             CharSequence[] romanNumeric = {"I", "V", "X", "L", "C", "D", "M"};
             CharSequence[] exception = {"(",")","1","2","3","4","5","6","7","8","9","+","-","*","/"};
             while(true) {
+                int count = 0;
                 boolean RomanNum = false;
                 boolean ArabicNum = false;
                 boolean ArabicAdditionalBool = false;
